@@ -1,0 +1,96 @@
+body::after {
+  content: '';
+  position: fixed;
+  background-color: white;
+  top: 260px;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+
+}
+
+#page-search-results {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+#page-search-results header {
+  margin-top: 48px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#page-search-results header a {
+  color: var(--titles);
+  font-weight: bold;
+
+  display: flex;
+  align-items: center;
+}
+
+#page-search-results header a img {
+  width: 20px;
+  height: 20px;
+}
+#page-search-results header a span {
+  margin-left: 16px;
+  font-weight: bold;
+}
+
+#page-search-results main {
+  margin: 48px;
+}
+#page-search-results main h4 {
+  font-weight: normal;
+  font-family: 'Roboto', sans-serif;
+
+  margin-bottom: 32px;
+}
+
+#page-search-results main .cards {
+  display: grid;
+  grid-template-columns:  1fr 1fr 1fr;
+  
+  gap: 24px;
+}
+#page-search-results main img {
+  width: 100%;
+  height: 150px;
+
+  border-radius: 8px 8px 0 0 ;
+  margin-bottom: 32px;
+
+  object-fit: cover;
+}
+
+#page-search-results main .card h1 {
+  font-size: 36px;
+  line-height: 41px;
+  color: #322153;
+  
+}
+
+#page-search-results main .card h3 {
+  margin-bottom: 24px 0;
+
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 34px;
+
+  color: var(--greenpeace);
+
+}
+
+#page-search-results main .card p {
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--texts);
+}
+

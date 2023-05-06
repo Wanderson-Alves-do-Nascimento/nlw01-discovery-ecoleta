@@ -1,0 +1,26 @@
+:root {
+  --background: #F0F0F5;
+  --greenpeace: #34CB79;
+  --greenpeace-strong: #2FB86E;
+  --texts: #6C6C80;
+  --titles: #322153;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: 'Roboto', sans-serif;
+}
+body {
+  background-color: var(--background);
+  -webkit-font-smoothing: antialiased;
+}
+a {
+  text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6{
+  color: var(--titles);
+  font-family: 'Ubuntu', sans-serif;
+}

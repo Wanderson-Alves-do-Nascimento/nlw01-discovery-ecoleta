@@ -1,0 +1,42 @@
+/* Desktop */
+
+@media (max-width: 900px ){
+  #page-home .content {
+    align-items: center;
+    text-align: center;
+  }
+  #page-home header a {
+    position: absolute;
+    bottom: 36px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  #page-home main {
+    align-items: center;
+  }
+  
+  #page-create-point form .field-group {
+    flex-direction: column;
+  }
+  #page-create-point .field-group .field + .field {
+     margin-left: 0;
+  }
+
+  #page-search-results main .cards {
+    grid-template-columns: 1fr;
+  }
+  #page-search-results main .cards img {
+    height: 200px;
+  }
+}
+
+@media (min-width: 1700px){
+  #page-home {
+    background-position-x: 40vw;
+  }
+}
+@media (max-height: 760px){
+  #page-home {
+    background-position-y: 200px;
+  }
+}
